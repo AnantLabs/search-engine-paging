@@ -34,26 +34,12 @@
 	</properties>
 
 	<distributionManagement>
-	      <repository>
-	      <id>brainshare-repository</id>
-	      <url>dav:https://ssl.brainshare.pl:4433/repo/releases</url>
-	    </repository>
-	    <snapshotRepository>
-	      <uniqueVersion>false</uniqueVersion>
-	      <id>brainshare-repository</id>
-	      <url>dav:https://ssl.brainshare.pl:4433/repo/snapshots</url>
-	    </snapshotRepository>
-	    <site>
-	      <id>brainshare-repository</id>
-	      <url>dav:https://ssl.brainshare.pl:4433/repo/sites/${pom.groupId}/${pom.artifactId}</url>
-	    </site>
-	    <downloadUrl />
 	</distributionManagement>
 
 	<scm>
-	  <connection>scm:svn:https://ssl.brainshare.pl:4433/svn/tags/company-www-1.0.0</connection>
-	  <developerConnection>scm:svn:https://ssl.brainshare.pl:4433/svn/tags/company-www-1.0.0</developerConnection>
-	  <url>https://ssl.brainshare.pl:4433/svn/tags/company-www-1.0.0</url>
+	  <connection>scm:svn:https://search-engine-paging.googlecode.com/svn/tags/search-engine-paging-1.0.0</connection>
+	  <developerConnection>scm:svn:https://search-engine-paging.googlecode.com/svn/tags/search-engine-paging-1.0.0</developerConnection>
+	  <url>https://search-engine-paging.googlecode.com/svn/tags/search-engine-paging-1.0.0</url>
 	</scm> 
 
 	<pluginRepositories>
