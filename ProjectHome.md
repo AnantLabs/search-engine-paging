@@ -1,0 +1,1 @@
+The library allows to make real paging with Hibernate Search and Lucene Search Engine.
